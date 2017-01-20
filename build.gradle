@@ -36,6 +36,10 @@ dependencies {
     // tag::tests[]
     testCompile("org.springframework.boot:spring-boot-starter-test")
     // end::tests[]
+
+    
+    compile 'org.ff4j:ff4j-core'
+    compile 'org.ff4j:ff4j-aop'
 }
 springBoot {
   mainClass = "com.digitalglobe.it.Application"
